@@ -15,6 +15,8 @@ closed-source alternatives.
 
 ## The challenges I had ahead
 
+### Overview
+
 I have been using Linux as my main operating system for 3 years, and I can safely say that most of the
 time I can find my way in it to do the things I want. Not like second nature, but I have gotten well
 used to the environment, and thanks to courses like MAC0422 - Operating Systems, I have a good
@@ -51,6 +53,13 @@ Afterwards, we were taught how to submit a patch to the Linux Kernel. It came as
 no cloud service to store code like Github or Gitlab is used, but instead, it all happens through
 email lists! Patches are sent to subsystem maintainers, where they follow a chain of revision until
 they're integrated to production code. It feels like an obsolete thing, but if it works, it works.
+
+### Problems faced in the tutorials
+
+In some of the tutorials, mainly the first one, some problems arose for me: when creating the virtual machine,
+I tried to test myself and install another Linux distro instead of the suggested Debian, which caused headaches.
+After some trial and error with an Ubuntu ISO, I gave up and ended up installing a Debian one, as intented. Furthermore,
+I had some problems regarding accessing the virtual machine with SSH, but that was easily solved.
 
 Finally, we moved on to the real thing: it was time to make our own patch to a Kernel module and
 submit it officially.
