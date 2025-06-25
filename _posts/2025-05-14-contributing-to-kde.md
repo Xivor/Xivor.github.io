@@ -19,7 +19,8 @@ aforementioned software. It was about the program not saving its window size whe
 a Dolphin window, for example, changing its window size, closing it, and opening it again. It will open a window with the last size it had before being closed by
 default). As further detailed in the [Challenges faced](#Challenges faced) section, it did not work out.
 
-As of June 25th, we still could not make a contribution to the KDE project, since our first attempt failed, and we are still searching for another issue we can work on.
+As of June 25th, we still could not make a contribution to the KDE project, since our first attempt failed, and we are still searching for another issue we can work
+on, with some candidates on the line.
 
 ## Challenges faced 
 
@@ -49,4 +50,15 @@ that it had an easy solution. Actually, it seemed like a common problem: Spectac
 
 ![Nate-Graham-describes-solution-for-spectacle-permission-issue](/assets/img/kde-development/kde_spectacle_kwin.png)
 
-<!-- falar sobre o spectacle não tendo permissão pra tirar screenshot -->
+With that in mind, we tried once more installing Spectacle where our running instance of KWin was, but that was not with its challenges. First of all, we ran into
+superuser permission issues, which was fair, since we were trying to install locally-build software in locations reserved to package managers and the such. After
+changing kde-builder's configuration file to run commands with sudo by default, we ran into another problem: all of a sudden, we could not build Spectacle again, as
+some libraries it required were not installed or in their latest version, which was very strange. After again going through the process of trial and error for
+installing the libraries required, we thought: "hey, maybe we should be running a more cutting-edge setup. For instance, one that at least runs the Plasma 6 desktop
+environment. That way, we should have all the libraries KDE software need to be built, and in their latest versions".
+
+With that in mind, we set off to setup our development setups: my partner even installed KDE Neon with Plasma 6 on his laptop, while I stuck with an Arch Linux virtual
+machine in VirtualBox (biggest mistake). While I could not build Spectacle because of many problems in my development environment (mainly things that I needed to
+install manually because I stuck with Arch), my partner could build Spectacle rather easily, but he had the same problem of screenshot permissions. With that, we
+thought that maybe it was a better idea to search for issues in other KDE softwares, ones we could build and run easily, like Dolphin, and left Spectacle's window
+resizing issue as it was.
