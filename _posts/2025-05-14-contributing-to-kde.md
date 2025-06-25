@@ -17,7 +17,7 @@ KDE, since I use its desktop environment and would love to be part of its develo
 We first tried contributing to Spectacle, KDE's screenshot capture utility. When searching for easy issues for first-time contributors, we came along one regarding the
 aforementioned software. It was about the program not saving its window size when closed and opened up again, a behavior found in every other KDE software (try opening
 a Dolphin window, for example, changing its window size, closing it, and opening it again. It will open a window with the last size it had before being closed by
-default). As further detailed in the [Challenges faced](#Challenges faced) section, it did not work out.
+default). As further detailed in the [Challenges faced](#challenges-faced) section, it did not work out.
 
 As of June 25th, we still could not make a contribution to the KDE project, since our first attempt failed, and we are still searching for another issue we can work
 on, with some candidates on the line.
