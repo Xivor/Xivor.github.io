@@ -1,5 +1,5 @@
 ---
-title: "Taking a shot at contributing to KDE"
+title: "My experience contributing to KDE"
 date: 2025-06-25
 categories: [KDE, Spectacle, MAC0470]
 tags: [linux, kde, mac0470]
