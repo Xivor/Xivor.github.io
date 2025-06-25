@@ -2,7 +2,7 @@
 title: "First time contributing to the Linux Kernel"
 date: 2024-04-22 
 categories: [Linux Kernel, IIO, MAC0470, Patch]
-tags: [linux, kernel, iio, patch]
+tags: [linux, kernel, iio, patch, mac0470]
 ---
 
 ## How I got here
